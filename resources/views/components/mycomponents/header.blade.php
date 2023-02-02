@@ -1,6 +1,6 @@
 <div class="container">
-    <div class="row">
-       <div class="logo-area clearfix">
+    <div class="row ">
+       <div class="logo-area clearfix @if ($theme=='theme1') '' @elseif ($theme=='theme2') midnight-blue-bg @endif">
           <div class="logo col-lg-3 col-md-12">
              <a href="index.html">
                 <img src="{{ asset("images/logo.png") }}" alt="">
@@ -21,6 +21,12 @@
                       <p class="info-subtitle">mail@example.com</p>
                    </div>
                 </li>
+                <li><span class="info-icon"><i class="icon icon-edit2"></i></span>
+                    <div class="info-wrapper">
+                       <p class="info-subtitle"><a href="{{ route('themeName', 'theme1') }}" >Theme 1</a></p>
+                       <p class="info-subtitle"><a href="{{ route('themeName', 'theme2') }}" >Theme 2</a></p>
+                    </div>
+                 </li>
              </ul>
           </div>
           <!-- Col End-->
