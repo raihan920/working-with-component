@@ -53,18 +53,19 @@
    <div class="body-inner">
       <div class="site-top-2">
          <header class="header nav-down" id="header-2">
-            <x-mycomponents.header></x-mycomponents.header>
+            {{-- as all the components are registered in the AppServiceProvider we don't need to write the full file path --}}
+            <x-header></x-header>
          </header>
          <!-- Header end-->
       </div>
 
-      <x-mycomponents.carousel></x-mycomponents.carousel>
+      <x-carousel></x-carousel>
       <!-- Carousel end-->
 
       <section id="ts-features-light" class="ts-features-light">
          <div class="container">
             <div class="row feature-light-row">
-               <x-mycomponents.ts-feature></x-mycomponents.ts-feature>
+               <x-ts-feature></x-ts-feature>
             </div>
          </div>
       </section>
@@ -73,7 +74,7 @@
       <section  class="ts-service-area service-area-pattern" id="ts-service-area" >
         <div class="service-area-bg">
          <div class="container">
-           <x-mycomponents.why-logi></x-mycomponents.why-logi>
+           <x-why-logi></x-why-logi>
          </div>
          <!-- Container end-->
         </div>
@@ -82,7 +83,7 @@
 
       <section class="ts-services solid-bg" id="ts-services">
          <div class="container">
-            <x-mycomponents.our-services></x-mycomponents.our-services>
+            <x-our-services></x-our-services>
          </div>
          <!-- Container end-->
       </section>
@@ -91,7 +92,7 @@
       <section class="testimonial-area" id="testimonial-area">
          <div class="container">
             <div class="row">
-               <x-mycomponents.quote-area></x-mycomponents.quote-area>
+               <x-quote-area></x-quote-area>
             </div>
             <!-- Content row end-->
          </div>
@@ -102,7 +103,7 @@
       <section id="ts-facts-area" class="ts-facts-area-bg bg-overlay">
          <div class="container">
             <div class="row ">
-               <x-mycomponents.facts-area></x-mycomponents.facts-area>
+               <x-facts-area></x-facts-area>
             </div>
             <!-- Row end-->
          </div>
@@ -112,7 +113,7 @@
 
       <section class="news" id="news">
          <div class="container">
-            <x-mycomponents.news></x-mycomponents.news>
+            <x-news></x-news>
          </div>
          <!-- Container end-->
       </section>
@@ -120,7 +121,7 @@
 
       <section class="quote-area solid-bg" id="quote-area">
          <div class="container">
-            <x-mycomponents.quote></x-mycomponents.quote>
+            <x-quote></x-quote>
          </div>
          <!-- Container end-->
       </section>
@@ -129,7 +130,7 @@
 
       <section class="clients-area " id="clients-area">
          <div class="container">
-            <x-mycomponents.partners></x-mycomponents.partners>
+            <x-partners></x-partners>
             <!-- Content row end-->
          </div>
          <!-- Container end-->
@@ -138,14 +139,14 @@
 
       <section id="call-to-action" class="call-to-action-bg ">
          <div class="container">
-            <x-mycomponents.call-to-action></x-mycomponents.call-to-action>
+            <x-call-to-action></x-call-to-action>
          </div>
       </section>
       <!-- Call to action end -->
 
       <!-- Footer start-->
       <footer class="footer" id="footer">
-        <x-mycomponents.footer></x-mycomponents.footer>
+        <x-footer></x-footer>
       </footer>
       <!-- Footer end-->
 
