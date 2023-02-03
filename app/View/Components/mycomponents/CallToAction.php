@@ -4,7 +4,7 @@ namespace App\View\Components\mycomponents;
 
 use Illuminate\View\Component;
 
-class our-services extends Component
+class CallToAction extends Component
 {
     /**
      * Create a new component instance.
@@ -23,6 +23,6 @@ class our-services extends Component
      */
     public function render()
     {
-        return view('components.mycomponents.our-services');
+        return view('components.mycomponents.call-to-action');
     }
 }

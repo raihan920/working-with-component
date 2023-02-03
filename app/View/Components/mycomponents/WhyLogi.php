@@ -4,7 +4,7 @@ namespace App\View\Components\mycomponents;
 
 use Illuminate\View\Component;
 
-class call-to-action extends Component
+class WhyLogi extends Component
 {
     /**
      * Create a new component instance.
@@ -23,6 +23,6 @@ class call-to-action extends Component
      */
     public function render()
     {
-        return view('components.mycomponents.call-to-action');
+        return view('components.mycomponents.why-logi');
     }
 }

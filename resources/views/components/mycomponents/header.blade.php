@@ -1,6 +1,6 @@
 <div class="container">
     <div class="row ">
-       <div class="logo-area clearfix @if ($theme=='theme1') '' @elseif ($theme=='theme2') midnight-blue-bg @endif">
+       <div class="logo-area clearfix midnight-blue-bg">
           <div class="logo col-lg-3 col-md-12">
              <a href="index.html">
                 <img src="{{ asset("images/logo.png") }}" alt="">

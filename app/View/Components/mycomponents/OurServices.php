@@ -4,7 +4,7 @@ namespace App\View\Components\mycomponents;
 
 use Illuminate\View\Component;
 
-class facts-area extends Component
+class OurServices extends Component
 {
     /**
      * Create a new component instance.
@@ -23,6 +23,6 @@ class facts-area extends Component
      */
     public function render()
     {
-        return view('components.mycomponents.facts-area');
+        return view('components.mycomponents.our-services');
     }
 }

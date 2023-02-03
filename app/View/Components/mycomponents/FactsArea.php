@@ -4,7 +4,7 @@ namespace App\View\Components\mycomponents;
 
 use Illuminate\View\Component;
 
-class ts-feature extends Component
+class FactsArea extends Component
 {
     /**
      * Create a new component instance.
@@ -23,6 +23,6 @@ class ts-feature extends Component
      */
     public function render()
     {
-        return view('components.mycomponents.ts-feature');
+        return view('components.mycomponents.facts-area');
     }
 }

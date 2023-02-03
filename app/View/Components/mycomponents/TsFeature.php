@@ -4,7 +4,7 @@ namespace App\View\Components\mycomponents;
 
 use Illuminate\View\Component;
 
-class quote-area extends Component
+class TsFeature extends Component
 {
     /**
      * Create a new component instance.
@@ -23,6 +23,6 @@ class quote-area extends Component
      */
     public function render()
     {
-        return view('components.mycomponents.quote-area');
+        return view('components.mycomponents.ts-feature');
     }
 }

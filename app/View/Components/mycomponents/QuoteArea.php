@@ -4,7 +4,7 @@ namespace App\View\Components\mycomponents;
 
 use Illuminate\View\Component;
 
-class why-logi extends Component
+class QuoteArea extends Component
 {
     /**
      * Create a new component instance.
@@ -23,6 +23,6 @@ class why-logi extends Component
      */
     public function render()
     {
-        return view('components.mycomponents.why-logi');
+        return view('components.mycomponents.quote-area');
     }
 }
