@@ -1,7 +1,8 @@
 <div class="container">
     <div class="row ">
-       <div class="logo-area clearfix midnight-blue-bg">
+       <div class="logo-area clearfix">
           <div class="logo col-lg-3 col-md-12">
+                {{ $themeName }}
              <a href="index.html">
                 <img src="{{ asset("images/logo.png") }}" alt="">
              </a>

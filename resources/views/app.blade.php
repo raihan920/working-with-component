@@ -54,7 +54,8 @@
       <div class="site-top-2">
          <header class="header nav-down" id="header-2">
             {{-- as all the components are registered in the AppServiceProvider we don't need to write the full file path --}}
-            <x-header></x-header>
+            {{-- how to pass theme name?? --}}
+            <x-header>{{ $themeName }}</x-header>
          </header>
          <!-- Header end-->
       </div>
