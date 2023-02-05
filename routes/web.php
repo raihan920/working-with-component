@@ -17,7 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/home/{thmeName?}', function ($thmeName='theme1') {
-
-    return view('app', ['themeName'=>$thmeName]);
+Route::get('/home/{themeName?}', function ($themeName='theme1') {
+    return view('app', compact('themeName'));
 })->name('themeName');

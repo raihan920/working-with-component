@@ -11,8 +11,8 @@ class header extends Component
      *
      * @return void
      */
-    public $bgColorClass;
-    public $fontColorClass;
+    // public $bgColorClass;
+    // public $fontColorClass;
 
     public function __construct() //$themeName='theme1'
     {
