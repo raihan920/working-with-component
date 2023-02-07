@@ -11,24 +11,26 @@ class header extends Component
      *
      * @return void
      */
-    // public $bgColorClass;
-    // public $fontColorClass;
-
-    public function __construct() //$themeName='theme1'
+    public $themeProperty;
+    public $themeName;
+    public function __construct($themeName='theme1') //$themeName='theme1'
     {
-        // $this->themeName = $themeName;
-        // switch($themeName){
-        //     case 'theme1':
-        //         break;
-        //     case 'theme2':
-        //         $this->bgColorClass = 'midnight-blue-bg';
-        //         $this->fontColorClass = 'light-cyan-text';
-        //         break;
-        //     default:
-        //         echo '';
-        // }
+        $this->themeName = $themeName;
+    }
 
-
+    public function getTehemeProperty(){
+        switch($this->themeName){
+            case 'theme1':
+                $this->themeProperty = '';
+                return $this->themeProperty;
+                break;
+            case 'theme2':
+                $this->themeProperty = 'midnight-blue-bg light-cyan-text';
+                return $this->themeProperty;
+                break;
+            default:
+                return '';
+        }
     }
 
     /**

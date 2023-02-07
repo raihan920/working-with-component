@@ -1,8 +1,6 @@
+{{$slot}}
 <div class="container">
-
     {{-- themeName is not found in this component. but why??? --}}
-    {{-- {{ $themeName }} --}}
-
     <div class="row ">
        <div class="logo-area clearfix">
           <div class="logo col-lg-3 col-md-12">
@@ -15,7 +13,7 @@
              <ul class="top-info unstyled">
                 <li><span class="info-icon"><i class="icon icon-phone3"></i></span>
                    <div class="info-wrapper">
-                      <p class="info-title">24/7 Response Time</p>
+                      <p class="info-title">{{ $slot }}</p>
                       <p class="info-subtitle">(+9) 847-291-4353</p>
                    </div>
                 </li>
