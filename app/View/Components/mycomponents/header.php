@@ -16,6 +16,7 @@ class header extends Component
     public function __construct($themeName=null) //$themeName='theme1'
     {
         $this->themeName = $themeName;
+        $this->getTehemeProperty();
     }
 
     public function getTehemeProperty(){

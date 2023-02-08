@@ -58,8 +58,8 @@
             {{-- $themeName --}}
             {{-- {{ dd(get_defined_vars()) }} --}}
             {{-- {{ $themeProperty }} --}}
-            {{-- {{ $themeName }} --}}
-            <x-header themeName="$themeName">  </x-header>
+            {{ $themeName }}
+            <x-header :themeName="$themeName"> {{ $themeName }}  </x-header>
          </header>
          <!-- Header end-->
       </div>

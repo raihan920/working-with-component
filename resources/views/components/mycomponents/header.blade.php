@@ -13,8 +13,8 @@
              <ul class="top-info unstyled">
                 <li><span class="info-icon"><i class="icon icon-phone3"></i></span>
                    <div class="info-wrapper">
-                      <p class="info-title">{{ $slot }}</p>
-                      <p class="info-subtitle">{{ $themeProperty }}</p>
+                      <p class="info-title"> {{ $slot }} </p> {{-- {{ $slot }} --}}
+                      <p class="info-subtitle {{ $themeProperty }}">{{ $themeProperty }}</p>
                    </div>
                 </li>
                 <li><span class="info-icon"><i class="icon icon-envelope"></i></span>
