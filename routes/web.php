@@ -18,5 +18,16 @@ Route::get('/', function () {
 });
 
 Route::get('/home/{themeName?}', function ($themeName='theme1') {
+    // $themeProperty = '';
+    // switch($themeName){
+    //     case 'theme1':
+    //         $themeProperty = '';
+    //         break;
+    //     case 'theme2':
+    //         $themeProperty = 'midnight-blue-bg light-cyan-text';
+    //         break;
+    //     default:
+    //         break;
+    // }
     return view('app', compact('themeName'));
 })->name('themeName');

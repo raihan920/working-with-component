@@ -14,7 +14,7 @@
                 <li><span class="info-icon"><i class="icon icon-phone3"></i></span>
                    <div class="info-wrapper">
                       <p class="info-title">{{ $slot }}</p>
-                      <p class="info-subtitle">(+9) 847-291-4353</p>
+                      <p class="info-subtitle">{{ $themeProperty }}</p>
                    </div>
                 </li>
                 <li><span class="info-icon"><i class="icon icon-envelope"></i></span>

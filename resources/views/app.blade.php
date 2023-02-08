@@ -56,7 +56,10 @@
             {{-- as all the components are registered in the AppServiceProvider we don't need to write the full file path --}}
             {{-- how to pass theme name?? --}}
             {{-- $themeName --}}
-            <x-header></x-header>
+            {{-- {{ dd(get_defined_vars()) }} --}}
+            {{-- {{ $themeProperty }} --}}
+            {{-- {{ $themeName }} --}}
+            <x-header themeName="$themeName">  </x-header>
          </header>
          <!-- Header end-->
       </div>

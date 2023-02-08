@@ -13,7 +13,7 @@ class header extends Component
      */
     public $themeProperty;
     public $themeName;
-    public function __construct($themeName='theme1') //$themeName='theme1'
+    public function __construct($themeName=null) //$themeName='theme1'
     {
         $this->themeName = $themeName;
     }
@@ -21,12 +21,12 @@ class header extends Component
     public function getTehemeProperty(){
         switch($this->themeName){
             case 'theme1':
-                $this->themeProperty = '';
-                return $this->themeProperty;
+                $this->themeProperty = 'theme 1 prop';
+                return ['themeProperty', $this->themeProperty];
                 break;
             case 'theme2':
                 $this->themeProperty = 'midnight-blue-bg light-cyan-text';
-                return $this->themeProperty;
+                return ['themeProperty', $this->themeProperty];
                 break;
             default:
                 return '';
